@@ -1,0 +1,23 @@
+h1{
+	font-size: 500%;
+}
+body{
+	background-color: blue;
+	color: black;
+	font-style: bold
+}
+p {color: whitesmoke}
+.top{
+	background-color: white
+}
+.mid{
+	background-color: red;
+}
+#timer{
+	color: whitesmoke;
+}
+#start{
+	background-color: green;
+	border-radius: 0;
+	border: none;
+}

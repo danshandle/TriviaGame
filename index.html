@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-us">
+	<title>Trivia Game</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<section class="container">
+		<div class="row text-center top">
+			<h1 class="col-md-12">Trivia Game</h1>
+		</div>
+		<div class="row text-center mid">
+			<h3 class="col-md-12" id="timer">Time Remaining: 10</h3>
+			<p>Hover cursor over selction and click. The next question will appear automatically.</p>			
+		</div>
+		<div class="row text-center bottom">
+			<h3 class="col-md-12" id="question"></h3>			
+		</div>
+		<div class="row text-center bottom">
+			<h2 class="col-md-12" id="answer1"></h2>
+			<h2 class="col-md-12" id="answer2"></h2>
+			<h2 class="col-md-12" id="answer3"></h2>
+			<h2 class="col-md-12" id="answer4"></h2>			
+		</div>
+		<div id="start-button" class="row text-center bottom">
+			<button id="start" class="btn btn-lg btn-primary">Start</button>
+		</div>
+	</section>
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
