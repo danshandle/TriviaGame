@@ -2,8 +2,10 @@ h1{
 	font-size: 500%;
 }
 body{
-	background-color: blue;
-	color: black;
+    background-color: blue;
+    background: url("../images/laborflag.JPG");
+    background-blend-mode: lighten
+    color: black;
 	font-style: bold
 }
 p {color: whitesmoke}
